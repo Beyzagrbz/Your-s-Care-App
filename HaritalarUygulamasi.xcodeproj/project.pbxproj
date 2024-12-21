@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0B04AEEC2CB68D3700316488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B04AECA2CB68D3500316488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B04AED12CB68D3500316488;
+			remoteInfo = HaritalarUygulamasi;
+		};
+		0B04AEF62CB68D3700316488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B04AECA2CB68D3500316488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B04AED12CB68D3500316488;
+			remoteInfo = HaritalarUygulamasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B04AED22CB68D3500316488 /* HaritalarUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaritalarUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B04AEEB2CB68D3700316488 /* HaritalarUygulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaritalarUygulamasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B04AEF52CB68D3700316488 /* HaritalarUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaritalarUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0B04AEFD2CB68D3700316488 /* Exceptions for "HaritalarUygulamasi" folder in "HaritalarUygulamasi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0B04AED12CB68D3500316488 /* HaritalarUygulamasi */;
+		};
+		0BB5E1162CB6BB5E00F8C75F /* Exceptions for "HaritalarUygulamasi" folder in "HaritalarUygulamasiTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				harita/ListViewController.swift,
+				"yüz/FirstViewController.swift",
+			);
+			target = 0B04AEEA2CB68D3700316488 /* HaritalarUygulamasiTests */;
+		};
+		0BB5E1172CB6BB5E00F8C75F /* Exceptions for "HaritalarUygulamasi" folder in "HaritalarUygulamasiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				harita/ListViewController.swift,
+				"yüz/FirstViewController.swift",
+			);
+			target = 0B04AEF42CB68D3700316488 /* HaritalarUygulamasiUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0B04AED42CB68D3500316488 /* HaritalarUygulamasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0B04AEFD2CB68D3700316488 /* Exceptions for "HaritalarUygulamasi" folder in "HaritalarUygulamasi" target */,
+				0BB5E1162CB6BB5E00F8C75F /* Exceptions for "HaritalarUygulamasi" folder in "HaritalarUygulamasiTests" target */,
+				0BB5E1172CB6BB5E00F8C75F /* Exceptions for "HaritalarUygulamasi" folder in "HaritalarUygulamasiUITests" target */,
+			);
+			path = HaritalarUygulamasi;
+			sourceTree = "<group>";
+		};
+		0B04AEEE2CB68D3700316488 /* HaritalarUygulamasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaritalarUygulamasiTests;
+			sourceTree = "<group>";
+		};
+		0B04AEF82CB68D3700316488 /* HaritalarUygulamasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaritalarUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B04AECF2CB68D3500316488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B04AEE82CB68D3700316488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B04AEF22CB68D3700316488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B04AEC92CB68D3500316488 = {
+			isa = PBXGroup;
+			children = (
+				0B04AED42CB68D3500316488 /* HaritalarUygulamasi */,
+				0B04AEEE2CB68D3700316488 /* HaritalarUygulamasiTests */,
+				0B04AEF82CB68D3700316488 /* HaritalarUygulamasiUITests */,
+				0B04AED32CB68D3500316488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B04AED32CB68D3500316488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B04AED22CB68D3500316488 /* HaritalarUygulamasi.app */,
+				0B04AEEB2CB68D3700316488 /* HaritalarUygulamasiTests.xctest */,
+				0B04AEF52CB68D3700316488 /* HaritalarUygulamasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B04AED12CB68D3500316488 /* HaritalarUygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B04AEFE2CB68D3700316488 /* Build configuration list for PBXNativeTarget "HaritalarUygulamasi" */;
+			buildPhases = (
+				0B04AECE2CB68D3500316488 /* Sources */,
+				0B04AECF2CB68D3500316488 /* Frameworks */,
+				0B04AED02CB68D3500316488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0B04AED42CB68D3500316488 /* HaritalarUygulamasi */,
+			);
+			name = HaritalarUygulamasi;
+			packageProductDependencies = (
+			);
+			productName = HaritalarUygulamasi;
+			productReference = 0B04AED22CB68D3500316488 /* HaritalarUygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B04AEEA2CB68D3700316488 /* HaritalarUygulamasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B04AF032CB68D3700316488 /* Build configuration list for PBXNativeTarget "HaritalarUygulamasiTests" */;
+			buildPhases = (
+				0B04AEE72CB68D3700316488 /* Sources */,
+				0B04AEE82CB68D3700316488 /* Frameworks */,
+				0B04AEE92CB68D3700316488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B04AEED2CB68D3700316488 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0B04AEEE2CB68D3700316488 /* HaritalarUygulamasiTests */,
+			);
+			name = HaritalarUygulamasiTests;
+			packageProductDependencies = (
+			);
+			productName = HaritalarUygulamasiTests;
+			productReference = 0B04AEEB2CB68D3700316488 /* HaritalarUygulamasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B04AEF42CB68D3700316488 /* HaritalarUygulamasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B04AF062CB68D3700316488 /* Build configuration list for PBXNativeTarget "HaritalarUygulamasiUITests" */;
+			buildPhases = (
+				0B04AEF12CB68D3700316488 /* Sources */,
+				0B04AEF22CB68D3700316488 /* Frameworks */,
+				0B04AEF32CB68D3700316488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B04AEF72CB68D3700316488 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0B04AEF82CB68D3700316488 /* HaritalarUygulamasiUITests */,
+			);
+			name = HaritalarUygulamasiUITests;
+			packageProductDependencies = (
+			);
+			productName = HaritalarUygulamasiUITests;
+			productReference = 0B04AEF52CB68D3700316488 /* HaritalarUygulamasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B04AECA2CB68D3500316488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0B04AED12CB68D3500316488 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0B04AEEA2CB68D3700316488 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0B04AED12CB68D3500316488;
+					};
+					0B04AEF42CB68D3700316488 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0B04AED12CB68D3500316488;
+					};
+				};
+			};
+			buildConfigurationList = 0B04AECD2CB68D3500316488 /* Build configuration list for PBXProject "HaritalarUygulamasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B04AEC92CB68D3500316488;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0B04AED32CB68D3500316488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B04AED12CB68D3500316488 /* HaritalarUygulamasi */,
+				0B04AEEA2CB68D3700316488 /* HaritalarUygulamasiTests */,
+				0B04AEF42CB68D3700316488 /* HaritalarUygulamasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B04AED02CB68D3500316488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B04AEE92CB68D3700316488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B04AEF32CB68D3700316488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B04AECE2CB68D3500316488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B04AEE72CB68D3700316488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B04AEF12CB68D3700316488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B04AEED2CB68D3700316488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B04AED12CB68D3500316488 /* HaritalarUygulamasi */;
+			targetProxy = 0B04AEEC2CB68D3700316488 /* PBXContainerItemProxy */;
+		};
+		0B04AEF72CB68D3700316488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B04AED12CB68D3500316488 /* HaritalarUygulamasi */;
+			targetProxy = 0B04AEF62CB68D3700316488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B04AEFF2CB68D3700316488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SVTL8P5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaritalarUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyzagurbuz.HaritalarUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B04AF002CB68D3700316488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SVTL8P5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaritalarUygulamasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyzagurbuz.HaritalarUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B04AF012CB68D3700316488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B04AF022CB68D3700316488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B04AF042CB68D3700316488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SVTL8P5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyzagurbuz.HaritalarUygulamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaritalarUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaritalarUygulamasi";
+			};
+			name = Debug;
+		};
+		0B04AF052CB68D3700316488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SVTL8P5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyzagurbuz.HaritalarUygulamasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaritalarUygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaritalarUygulamasi";
+			};
+			name = Release;
+		};
+		0B04AF072CB68D3700316488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SVTL8P5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyzagurbuz.HaritalarUygulamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaritalarUygulamasi;
+			};
+			name = Debug;
+		};
+		0B04AF082CB68D3700316488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SVTL8P5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyzagurbuz.HaritalarUygulamasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaritalarUygulamasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B04AECD2CB68D3500316488 /* Build configuration list for PBXProject "HaritalarUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04AF012CB68D3700316488 /* Debug */,
+				0B04AF022CB68D3700316488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B04AEFE2CB68D3700316488 /* Build configuration list for PBXNativeTarget "HaritalarUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04AEFF2CB68D3700316488 /* Debug */,
+				0B04AF002CB68D3700316488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B04AF032CB68D3700316488 /* Build configuration list for PBXNativeTarget "HaritalarUygulamasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04AF042CB68D3700316488 /* Debug */,
+				0B04AF052CB68D3700316488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B04AF062CB68D3700316488 /* Build configuration list for PBXNativeTarget "HaritalarUygulamasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04AF072CB68D3700316488 /* Debug */,
+				0B04AF082CB68D3700316488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B04AECA2CB68D3500316488 /* Project object */;
+}
